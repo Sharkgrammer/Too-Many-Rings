@@ -1,0 +1,126 @@
+/*noinspection ALL*/
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  fill: white;
+}
+
+/*noinspection ALL*/
+arc{
+  arc-width:"5";
+  sweep-angle:"360";
+}
+
+/*noinspection ALL*/
+circle{
+  r:8;
+}
+
+/*noinspection ALL*/
+#hourArc {
+  fill: cornflowerblue;
+}
+
+/*noinspection ALL*/
+#hourCircle {
+  fill: cornflowerblue;
+}
+
+/*noinspection ALL*/
+#minArc {
+  fill: crimson;
+}
+
+/*noinspection ALL*/
+#minCircle {
+  fill: crimson;
+}
+
+/*noinspection ALL*/
+#dateArc {
+  fill: floralwhite;
+}
+
+/*noinspection ALL*/
+#dateCircle {
+  fill: floralwhite;
+}
+
+/*noinspection ALL*/
+#stepsArc {
+  fill: deepskyblue;
+}
+
+/*noinspection ALL*/
+#stepsCircle {
+  fill: deepskyblue;
+}
+
+/*noinspection ALL*/
+#distArc {
+  fill: orange;
+}
+
+/*noinspection ALL*/
+#distCircle {
+  fill: orange;
+}
+
+/*noinspection ALL*/
+#azmArc {
+  fill: gold;
+}
+
+/*noinspection ALL*/
+#azmCircle {
+  fill: gold;
+}
+
+/*noinspection ALL*/
+#calArc {
+  fill: limegreen;
+}
+
+/*noinspection ALL*/
+#calCircle {
+  fill: limegreen;
+}
+
+
+/*noinspection ALL*/
+#floorsArc {
+  fill: magenta;
+}
+
+/*noinspection ALL*/
+#floorsCircle {
+  fill: magenta;
+}
+
+
+/*noinspection ALL*/
+#hrArc {
+  fill: red;
+}
+
+/*noinspection ALL*/
+#hrCircle {
+  fill: red;
+}
+
+/*noinspection ALL*/
+#battArc {
+  fill: lightgreen;
+}
+
+/*noinspection ALL*/
+#battCircle {
+  fill: lightgreen;
+}
