@@ -26,6 +26,6 @@ An experimental watch face that displays the following stats using rings in the 
 
 This watch has a normal sibling face which displays time normally and also shows stats using similar rings at: https://github.com/Sharkgrammer/So-Many-Rings
 
-![Clock](https://gallery-assets.fitbit.com/public/NM0kDYVpNIBrNYOaAISaOIJhC5OXNHosBIKXAI_ZO53nC24aCaC_Bk/Cn4YC2GXBLJhNLKaNmooD57rAL7nCYNhDLFnCYNlNn8XCnRk@1x.png)
-![Clock](https://gallery-assets.fitbit.com/public/NM0kDYVpNIBrNYOaAISaOIJhC5OXNHosBIKXAI_ZO53nC24aCaC_Bk/NY3qC5KYCI3hNnGYB1ooOaOaAL8WOI3hNY7tO2BrNI_ZBaNp@1x.png)
+![Clock](https://gallery-assets.fitbit.com/public/NM0kDaJkCY_YCYBkAIFnD2JhC23tDHosCINmAI7nD2JpNI.rC5BnCV/BIZmNnFnBaBhCIG_CXooOYFqAL3mOY7hCnSZNYJtNYFnOY8X@1x.png)
+![Clock](https://gallery-assets.fitbit.com/public/NM0kDaJkCY_YCYBkAIFnD2JhC23tDHosCINmAI7nD2JpNI.rC5BnCV/BLBpNn4XNq3hCqOYNHooCqFmAIWaOIFhO27oOINsBIFrC5Fs@1x.png)
 
