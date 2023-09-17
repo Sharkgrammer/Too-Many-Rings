@@ -52,17 +52,6 @@ const calCircle = document.getElementById("calCircle");
 const floorsCircle = document.getElementById("floorsCircle");
 
 function activityCallback(data) {
-
-    /*
-    dateArc.sweepAngle = (Number(data.secs) / 60 * 360)
-
-    stepsArc.sweepAngle = (6000 / data.steps.goal) * 360;
-    distanceArc.sweepAngle = (5.4 / (data.distance.goal / 1000)) * 360;
-    AZMArc.sweepAngle = (5 / data.activeMinutes.goal) * 360;
-    caloriesArc.sweepAngle = (800 / 2000) * 360;
-    floorsArc.sweepAngle = (3 / data.elevationGain.goal) * 360;
-
-     */
     stepsArc.sweepAngle = (data.steps.raw / data.steps.goal) * 360;
     distanceArc.sweepAngle = (data.distance.raw / (data.distance.goal / 1000)) * 360;
     AZMArc.sweepAngle = (data.activeMinutes.raw / data.activeMinutes.goal) * 360;
@@ -93,7 +82,7 @@ function hrmCallback(data) {
         return
     }
 
-    heartArc.sweepAngle = (hr / 220) * 360;
+    heartArc.sweepAngle = (hr / 180) * 360;
     calculateArcEndPoint(heartArc, heartCircle);
 }
 
@@ -101,7 +90,7 @@ hrm.initialize(hrmCallback);
 
 const arcWidth = 5;
 
-function calculateArcEndPoint(arc, circle, output = false) {
+function calculateArcEndPoint(arc, circle) {
 
     // We can cheat a lil since each arc is a full circle
     const width = arc.getBBox().width, x = arc.getBBox().x;
