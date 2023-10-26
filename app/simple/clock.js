@@ -24,6 +24,9 @@ function tickHandler(evt) {
     let hours = today.getHours();
     let mins = util.zeroPad(today.getMinutes());
 
+    const is12hr = preferences.clockDisplay === "12h";
+    if (is12hr) hours = hours % 12 || 12;
+
     const endOfYear = new Date(today.getFullYear(), 11, 31);
     const millisecondsInADay = 24 * 60 * 60 * 1000;
 
@@ -36,5 +39,5 @@ function tickHandler(evt) {
     let isCharging = charger.connected;
     let power = {battery: batNum, charging: isCharging};
 
-    clockCallback({mins: mins, daysPassed: daysPassed, power: power, hours: hours});
+    clockCallback({mins: mins, daysPassed: daysPassed, power: power, hours: hours, is12hr: is12hr});
 }

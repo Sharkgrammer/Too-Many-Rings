@@ -19,7 +19,7 @@ const battArc = document.getElementById("battArc");
 const battCircle = document.getElementById("battCircle");
 
 function clockCallback(data) {
-    hourArc.sweepAngle = (data.hours / 24) * 360;
+    hourArc.sweepAngle = (data.hours / (data.is12hr ? 12 : 24)) * 360;
     calculateArcEndPoint(hourArc, hourCircle);
 
     minArc.sweepAngle = (data.mins / 60) * 360;
