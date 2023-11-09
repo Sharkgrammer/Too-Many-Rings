@@ -110,3 +110,18 @@ function calculateArcEndPoint(arc, circle) {
     circle.cx = endpointX - offsetX;
     circle.cy = endpointY - offsetY;
 }
+
+const screen = document.getElementById("screen");
+const clickable = document.getElementById("clickable");
+
+let linesShown = false;
+
+clickable.addEventListener("click", (evt) => {
+    if (linesShown) {
+        screen.animate("disable");
+    } else {
+        screen.animate("enable");
+    }
+
+    linesShown = !linesShown;
+});
